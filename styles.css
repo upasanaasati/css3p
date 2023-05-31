@@ -1,0 +1,195 @@
+header{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0px 3px 3px;
+    padding-left: 30px;
+    position: relative;
+
+    
+}
+
+.letter2{
+    color: skyblue;
+}
+.maincontainer{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 70px;
+   padding-left: 60px;
+ background-color: lightgray;
+}
+.workcontainer{
+    background-color: lightgrey;
+    
+}
+
+.box{
+    height: 320px;
+    width: 290px;
+    margin-top: 20px;
+    background-color: white;
+    
+}
+.box:hover{
+    box-shadow: 0px 0px 5px grey;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    background-color: skyblue;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 900px;
+    margin-top: 5px;
+}
+.task{
+    display: inline-block
+}
+.plus{
+    font-size: 30px;
+    color: white;
+}
+.text{
+    position: relative;
+    left: 900px;  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+    
+    color:darkturquoise;
+    padding-left: 10px;
+}
+.lt{
+    text-decoration: line-through;
+}
+form{
+    line-height: 40px;
+    padding-left: 10px;
+    
+}
+.parent{
+    filter:blur(10px) ;
+}
+.addnewtask{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 371px;
+    left: 31%;
+    background-color: white;
+    border-radius: 18px;
+    line-height: 10px;
+}
+.cross{
+    position: relative;
+    left:210px;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif;
+}
+h2{
+position: relative;
+left:20px;
+}
+#language{
+    width: 95%;
+    position: relative;
+    left: 5px;
+}
+.addtask{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(29, 168, 224);
+    margin-top: 20px;
+    position: relative;
+    left: 245px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.pg3{
+    background-color:lightgray;
+    height: 100vh;   
+}
+
+.backbuton{
+    height: 15px;
+    width: 15px;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+.symbol{
+    height: 30px;
+    width: 30px;
+    background-color: skyblue;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+}
+
+.align{
+position: relative;
+left: 160px;
+}
+.justify{
+    position: relative;
+    left: -20px;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color:darkturquoise;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:500px)
+{
+   .text{
+    display: none;
+   }
+   .icon{
+    position: relative;
+    left:230px;
+    top:10px;
+   }
+   .maincontainer{
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+   }
+   .addnewtask{
+    left:6%;
+   }
+  
+ .paristrip{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+.line{
+    display:none;
+}
+.symbol{
+    left:-80px;
+}
+.box3{
+    display: none;
+}
+.box5{
+    display: none;
+}
+   
+}
